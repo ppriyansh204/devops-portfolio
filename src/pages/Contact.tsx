@@ -55,7 +55,7 @@ export const Contact = () => {
     try {
       // Prepare form data for Web3Forms API
       const formDataToSubmit = new FormData();
-      formDataToSubmit.append("access_key", "365d3bf2-3eff-4844-a5cc-ab67429f27d2");
+      formDataToSubmit.append("access_key", "7d9db812-6e08-409d-867f-84f90f39edc0");
       formDataToSubmit.append("name", formData.name);
       formDataToSubmit.append("email", formData.email);
       formDataToSubmit.append("subject", formData.subject);
